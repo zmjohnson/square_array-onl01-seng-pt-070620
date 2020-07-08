@@ -1,6 +1,6 @@
 
 def square_array(number)
-  array_with_each_object([]) do |x,arr|
+  square_array([]) do |x,arr|
     arr << x**2
   end
 end
