@@ -1,3 +1,4 @@
 
 def square_array(array)
-  array_with_each_object([]) do |
+  array_with_each_object([]) do |x,arr|
+    
