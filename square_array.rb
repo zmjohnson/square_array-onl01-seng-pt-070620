@@ -1,5 +1,5 @@
 
-def square_array(array)
+def square_array(number)
   array_with_each_object([]) do |x,arr|
     arr << x**2
   end
